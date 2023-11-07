@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Biografi Leo Candra</title>
+  </head>
+  <body>
+    <!-- nav start -->
+    <div class="container-nav">
+      <nav>
+        <span>Leo Candra</span>
+        <ul class="hidden-ul">
+          <li>
+            <a href="#home">Beranda</a>
+          </li>
+          <li>
+            <a href="#about">Tentang</a>
+          </li>
+          <li>
+            <a href="#skills">Keahlian</a>
+          </li>
+          <li>
+            <a href="#project">Projek</a>
+          </li>
+          <li>
+            <a href="#contact">Hubungi</a>
+          </li>
+        </ul>
+        <div class="humberger" id="humberger" onclick="showUl()">
+          <i class="fa-solid fa-grip-lines" id="icon"></i>
+        </div>
+      </nav>
+    </div>
+    <!-- nav end -->
+    <!-- hero start -->
+    <div class="container-hero">
+      <section class="hero" id="home">
+        <h1>
+          Hai Nama Saya <br />
+          <b> Leo Candra</b>, Saya Adalah Seorang Pelajar
+        </h1>
+        <p>
+          Inilah Biografi saya <br />
+          Geser Ke Bawah
+                 👇👇👇.
+        </p>
+        <a href="#about">
+          <button>Tentang Saya</button>
+        </a>
+        <a href="#contact">
+          <button>Hubungi Leo</button>
+        </a>
+        <br />
+        <!-- your image -->
+        <img src="./assets/person.jpg" alt="Person" />
+      </section>
+    </div>
+    <!-- hero end -->
+    <!-- about start -->
+    <div class="container-about">
+      <section class="about" id="about">
+        <h1>Geser Lagi</h1>
+        <!-- your image -->
+        <img src="./assets/person.jpg" alt="Person" />
+        <div class="text-about">
+          <p>
+            Hai Nama Saya Daffa Danur Windha Saya Lahir 29-7-2009,Saya Di Lahirkan Di Indonesia, Saat Ini Saya Berusia 14 Tahun..
+          </p>
+          <a href="#skills">
+            <button>Keahlian Saya</button>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!-- about end -->
+    <!-- skills start -->
+    <div class="container-skills">
+      <section class="skills" id="skills">
+        <h1>Keahlian Saya</h1>
+        <p>Keahlian Saya Adalah Membuat Render Minecraft, Membuat Bot WhatsApp Dan Membuat Website</p>
+        <div class="all-card-skills">
+          <div class="card-skills"><h2>Render Minecraft</h2></div>
+          <div class="card-skills"><h2>Bot WhatsApp</h2></div>
+          <div class="card-skills"><h2>Membuat Website</h2></div>
+        </div>
+        <a href="#project">
+          <button>Lihatkan Keahlian Saya</button>
+        </a>
+      </section>
+    </div>
+    <!-- skills end -->
+    <!-- project start -->
+    <div class="container-project">
+      <section class="project" id="project">
+        <h1>Keahlian Saya</h1>
+        <div class="all-card-project">
+          <div class="card-project">
+            <img src="./assets/project-1.jpg" alt="project" />
+            <h2>Render Minecraft</h2>
+            <p>Ini adalah Render Minecraft buatan saya menggunakan software C4D/CINEMA 4D.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+          <div class="card-project">
+            <img src="./assets/daffa-1.jpg" alt="daffa" />
+            <h2>Bot WhatsApp</h2>
+            <p>Ini Adalah Bot WhatsApp Saya Membuat Nya sendiri di android menggunakan panel.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+          <div class="card-project">
+            <img src="./assets/karya1.jpg" alt="karya" />
+            <h2>Website</h2>
+            <p>Ini Adalah Website Saya Membuat Nya sendiri menggunakan Visual Studio Code.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+          <div class="card-project">
+            <img src="./assets/dafabot.jpg" alt="dafabot" />
+            <h2>Server Minecraft</h2>
+            <p>Ini Adalah Server minecraft saya membuat sendiri di panel.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+          <div class="card-project">
+            <img src="./assets/daffasekol.jpg" alt="daffasekol" />
+            <h2>Selesai</h2>
+            <p>Itulah Berbagai Macam Keahlian Saya.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- project end -->
+    <!-- contact start -->
+    <div class="container-contact">
+      <section class="contact" id="contact">
+        <h1>Hubungi Daffa</h1>
+        <img src="./assets/contact-1.png" alt="contact" />
+        <form action="">
+          <h2>Hubungi</h2>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nama Kamu"
+            required
+          />
+          <input
+            type="email"
+            name="emial"
+            id="email"
+            placeholder="Email Kamu"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Pesan"
+          ></textarea>
+          <a href="#">
+            <button>kirim Pesan</button>
+          </a>
+        </form>
+      </section>
+    </div>
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="container-footer">
+      <footer>
+        <p><i class="fa-regular fa-copyright"></i> DaffaWebsite</p>
+      </footer>
+    </div>
+    <!-- footer end -->
+
+    <!-- js -->
+    <script src="./script.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/e91d75df7f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
